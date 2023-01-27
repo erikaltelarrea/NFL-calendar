@@ -55,5 +55,5 @@ where:\
 # Use
 One must install the AMPL language and place all the archives in the same directory and run the calendari_NFL.run file.
 
-#Authors
+# Authors
 Erik Altelarrea-Ferré and Álvaro Ortiz Villa.
