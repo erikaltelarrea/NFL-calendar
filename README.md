@@ -46,11 +46,11 @@ where:\
 	$\bullet$ $n$ is the number of teams in the league.\
 	$\bullet$ $r$ is the number of intradivisional matches that each team plays.\
 	$\bullet$ $s$ is the number of interdivisional matches that each team plays.\
-	$\bullet$ J $=$ Match days = $\{ 1,\dots,r(n/2-1)+sn/2 \}$\
-	$\bullet$ Division A $= \{ 1,\dots,n/2\}$ \
-	$\bullet$ Division B $= \{n/2+1,\dots,n\}\$\
-	$\bullet$ E $=$ Teams $= \{1,\dots,n\}\$\
-	$\bullet$ Intradivisional matches $= \{(i,j): i < j, i,j \in \ $Division A $\} \cup \{(i,j): i < j, i,j \in \ $Division B$\}$ \
+	$\bullet$ $\text{J = Match days}$ = { $1,\dots,r(n/2-1)+sn/2$}\
+	$\bullet$ $\text{Division A}$ $=$ { $1,\dots,n/2$} \
+	$\bullet$ $\text{Division B}$ $=$ { $n/2+1,\dots,n$}\
+	$\bullet$ $\text{E = Teams}$ $=$ { $1,\dots,n$}\
+	$\bullet$ $\text{Intradivisional matches}$ $=$ { $(i,j): i < j, i,j \in \ \text{Division A} $} $\cup$ { $(i,j): i < j, i,j \in \ \text{Division B} $} 
 	
 # Use
 One must install the AMPL language and place all the archives in the same directory and run the calendari_NFL.run file.
