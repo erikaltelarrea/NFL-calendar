@@ -42,12 +42,12 @@ With the prior, we are ready to define our problem:
 		\end{align}
 		\right.
 ```
-where: \
-	$\bullet$ $n$ denota el número de equipos de la liga.\
-	$\bullet$ $r$ denota el número de partidos que juega cada equipo contra cada equipo de su misma división.\
-	$\bullet$ $s$ denota el número de partidos que juega cada equipo contra cada equipo de la otra división.\
-	$\bullet$ J $=$ Jornadas = $\{1,\dots,r(n/2-1)+sn/2\}$\
-	$\bullet$ División A $= \{1,\dots,n/2\}\$\
-	$\bullet$ División B $= \{n/2+1,\dots,n\}\$\
-	$\bullet$ E $=$ Equipos $= \{1,\dots,n\}\$\
-	$\bullet$ Partidos intra-divisionales $= \{(i,j): i < j, i,j \in \ $División A$ \} \cup \{(i,j): i < j, i,j \in \ $División B$\}$ \
+where:\
+	$\bullet$ $n$ is the number of teams in the league.\
+	$\bullet$ $r$ is the number of intradivisional matches that each team plays.\
+	$\bullet$ $s$ is the number of interdivisional matches that each team plays.\
+	$\bullet$ J $=$ Match days = $\{ 1,\dots,r(n/2-1)+sn/2 \}$\
+	$\bullet$ Division A $= \{ 1,\dots,n/2\}$ \
+	$\bullet$ Division B $= \{n/2+1,\dots,n\}\$\
+	$\bullet$ E $=$ Teams $= \{1,\dots,n\}\$\
+	$\bullet$ Intradivisional matches $= \{(i,j): i < j, i,j \in \ $Division A $\} \cup \{(i,j): i < j, i,j \in \ $Division B$\}$ \
