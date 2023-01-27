@@ -51,3 +51,9 @@ where:\
 	$\bullet$ Division B $= \{n/2+1,\dots,n\}\$\
 	$\bullet$ E $=$ Teams $= \{1,\dots,n\}\$\
 	$\bullet$ Intradivisional matches $= \{(i,j): i < j, i,j \in \ $Division A $\} \cup \{(i,j): i < j, i,j \in \ $Division B$\}$ \
+	
+# Use
+One must install the AMPL language and place all the archives in the same directory and run the calendari_NFL.run file.
+
+#Authors
+Erik Altelarrea-Ferré and Álvaro Ortiz Villa.
