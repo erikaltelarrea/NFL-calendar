@@ -42,3 +42,12 @@ With the prior, we are ready to define our problem:
 		\end{align}
 		\right.
 ```
+where: \
+	$\bullet$ $n$ denota el número de equipos de la liga.\
+	$\bullet$ $r$ denota el número de partidos que juega cada equipo contra cada equipo de su misma división.\
+	$\bullet$ $s$ denota el número de partidos que juega cada equipo contra cada equipo de la otra división.\
+	$\bullet$ J $=$ Jornadas = $\{1,\dots,r(n/2-1)+sn/2\}$\
+	$\bullet$ División A $= \{1,\dots,n/2\}\$\
+	$\bullet$ División B $= \{n/2+1,\dots,n\}\$\
+	$\bullet$ E $=$ Equipos $= \{1,\dots,n\}\$\
+	$\bullet$ Partidos intra-divisionales $= \{(i,j): i < j, i,j \in \ $División A$ \} \cup \{(i,j): i < j, i,j \in \ $División B$\}$ \
