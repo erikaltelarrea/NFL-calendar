@@ -1,0 +1,26 @@
+# Borrar los anterior comandos en AMPL
+reset;
+# Cargar el modelo
+model calendari_NFL.mod;
+# Cargar los datos
+data calendari_NFL.dat;
+# Indicación a AMPL de que se quiere utilizar como solver: CPLEX
+option solver cplex;
+
+#Resolver
+solve;
+
+# Mostrar los resultados 
+printf "\nSOLUCIÓN CASO: n = %d, r = %d, s = %d", n, r, s;
+printf "\n-----------------------------------"; 
+printf "\n(podrían haber soluciones alternativas con la misma función objectivo) \n";
+printf "\nFunción objetivo: %d \n", total; 
+
+for {k in JORNADAS} {
+  printf "\nPartidos jornada %d", k;
+  for {(i,j) in {EQUIPOS, EQUIPOS}: i < j and x[i,j,k] = 1}
+  printf "\n(%d,%d)",i,j;
+}
+printf "\n"; 
+
+

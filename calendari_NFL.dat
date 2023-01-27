@@ -1,0 +1,4 @@
+# Problema calendario NFL
+param n:= 6;
+param r:= 5;
+param s:= 4; 
