@@ -14,7 +14,7 @@ towards the last days. To achieve this we define the coefficients $c_{i,j,k}$ wh
 		\begin{align*}
 			&0 & &\text{ if the match } (i,j) \text{ is intradivisional and } k=1\\
 			&0 & &\text{ if the match } (i,j) \text{ is interdivisional }\\
-			&2^{k-2} & &\text{ si el partido } (i,j) \text{ is intradivisional and } k\geq2
+			&2^{k-2} & &\text{ if the match } (i,j) \text{ is intradivisional and } k\geq2
 		\end{align*}
 		\right.
 ```
@@ -34,7 +34,7 @@ With the prior, we are ready to define our problem:
 		\left\{
 		\begin{align}
 			\text{máx } z = &\sum\limits_{\substack{i,j\in \text{E}\\ i\neq j\\ k\in\text{J}}} c_{i,j,k}x_{i,j,k}\\  
-			\text{s.a.}\\
+			\text{s.t.}\\
 			&\sum\limits_{\substack{k\in\text{J}}} x_{i,j,k} = r & &\forall(i,j) \in \text{Intradivisional matches}\\
 			&\sum\limits_{\substack{k\in \text{J}}} x_{i,j,k} = s & &\forall i \in \text{Division A}, \forall j \in \text{Division B}\\
 			&\sum\limits_{\substack{j\in \text{E} \\ i\neq j}} x_{i,j,k} = 1 & &\forall i\in \text{Teams},     \forall k\in\text{Match days}\\
